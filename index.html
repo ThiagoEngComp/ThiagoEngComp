@@ -1,44 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <title>Meu Portfólio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Thiago EngComp</title>
     <style>
-        body { font-family: Arial, sans-serif; }
-        .projetos { margin-top: 20px; }
-        .projeto { margin-bottom: 20px; }
+        /* Estilo geral */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+
+        /* Conteúdo */
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        /* Sobre mim */
+        .sobre-mim {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .sobre-mim p {
+            margin: 0;
+        }
+
+        /* Projetos */
+        .projetos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .projeto {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .projeto h3 {
+            margin: 0 0 10px;
+            color: #333;
+        }
+
+        .projeto p {
+            margin: 0 0 15px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .projeto a {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #0073e6;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+
+        .projeto a:hover {
+            background: #005bb5;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #0073e6;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h1>Bem-vindo ao meu portfólio!</h1>
-    <p>Este é um portfólio de projetos hospedado com GitHub Pages.</p>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Thiago EngComp</h1>
+        <p>Portfólio de Projetos e Análises de Dados</p>
+    </header>
 
-    <div class="projetos">
-        <h2>Projetos</h2>
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <!-- Sobre mim -->
+        <section class="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um jovem estudante de Engenharia da Computação, apaixonado por tecnologia e inovação. Tenho me especializado em análise de dados, coleta, tratamento e visualização, sempre buscando transformar dados em informações úteis para a tomada de decisões.</p>
+            <p>Atualmente, venho desenvolvendo projetos que envolvem Python, coleta de dados, e machine learning, além de explorar técnicas de visualização com ferramentas modernas.</p>
+        </section>
 
-        <div class="projeto">
-            <h3>Projeto 1: Coleta de Dados</h3>
-            <p>Este projeto realiza a coleta de dados de diferentes sites, extraindo informações úteis para análise.</p>
-            <a href="https://github.com/ThiagoEngComp/Coleta_Dados" target="_blank">Repositório do projeto</a>
-        </div>
+        <!-- Projetos -->
+        <section class="projetos">
+            <h2>Meus Projetos</h2>
 
-        <div class="projeto">
-            <h3>Projeto 2: Preparação de Dados</h3>
-            <p>Processa e estrutura os dados coletados para facilitar pesquisas futuras e análises avançadas.</p>
-            <a href="https://github.com/ThiagoEngComp/Preparacao_Dados" target="_blank">Repositório do projeto</a>
-        </div>
+            <div class="projeto">
+                <h3>Projeto 1: Coleta de Dados</h3>
+                <p>Este projeto realiza a coleta de dados de diferentes sites, extraindo informações úteis para análise.</p>
+                <a href="https://github.com/ThiagoEngComp/Coleta_Dados" target="_blank">Ver Projeto</a>
+            </div>
 
-        <div class="projeto">
-            <h3>Projeto 3: Tratamento de Dados</h3>
-            <p>Executa limpeza e organização de dados empresariais, removendo inconsistências e duplicatas.</p>
-            <a href="https://github.com/ThiagoEngComp/Tratamento_Dados" target="_blank">Repositório do projeto</a>
-        </div>
+            <div class="projeto">
+                <h3>Projeto 2: Preparação de Dados</h3>
+                <p>Processa e estrutura os dados coletados para facilitar pesquisas futuras e análises avançadas.</p>
+                <a href="https://github.com/ThiagoEngComp/Preparacao_Dados" target="_blank">Ver Projeto</a>
+            </div>
 
-        <div class="projeto">
-            <h3>Projeto 4: Visualização de Dados Avançada</h3>
-            <p>Criação de gráficos interativos para representar os dados analisados de forma clara e intuitiva.</p>
-            <a href="https://github.com/ThiagoEngComp/vizualizacao_Dados_Avancada" target="_blank">Repositório do projeto</a>
-        </div>
+            <div class="projeto">
+                <h3>Projeto 3: Tratamento de Dados</h3>
+                <p>Executa limpeza e organização de dados empresariais, removendo inconsistências e duplicatas.</p>
+                <a href="https://github.com/ThiagoEngComp/Tratamento_Dados" target="_blank">Ver Projeto</a>
+            </div>
 
+            <div class="projeto">
+                <h3>Projeto 4: Visualização de Dados Avançada</h3>
+                <p>Criação de gráficos interativos para representar os dados analisados de forma clara e intuitiva.</p>
+                <a href="https://github.com/ThiagoEngComp/vizualizacao_Dados_Avancada" target="_blank">Ver Projeto</a>
+            </div>
+        </section>
     </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Thiago EngComp - <a href="https://github.com/ThiagoEngComp" target="_blank">GitHub</a></p>
+    </footer>
 </body>
 </html>
