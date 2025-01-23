@@ -1,16 +1,16 @@
-## Hi there 👋
+### Olá! 👋
 
-<!--
-**ThiagoEngComp/ThiagoEngComp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+###### Sobre o Thiago  
+Sou estudante de Engenharia da Computação e desenvolvedor focado em análise e ciência de dados. Trabalho com Python para manipulação, tratamento e visualização de dados.
 
-Here are some ideas to get you started:
+### Detalhes  
+[![Thiago's GitHub stats](https://github-readme-stats.vercel.app/api?username=ThiagoEngComp&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Projeto Destacado  
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=ThiagoEngComp&repo=vizualizacao_Dados_Avancada&theme=dark)](https://github.com/ThiagoEngComp/vizualizacao_Dados_Avancada)
+
+### Linguagens Utilizadas  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ThiagoEngComp&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+### Contatos  
+[<img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white' alt='LinkedIn' height='30'>](https://www.linkedin.com/in/thiago-antunes-54b82733a/)
